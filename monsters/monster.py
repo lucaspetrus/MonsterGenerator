@@ -14,8 +14,8 @@ class Monster(Printable):
     }
 
     def __init__(self, level, name):
-        self.level = level
         self.name = name
+        self.level = level
         self.health = dice(self.level, 8)
         self.offense = randint(-3, 3)
         self.defense = randint(-3, 3)
@@ -27,4 +27,4 @@ class Monster(Printable):
 
 if __name__ == '__main__':
 
-    print(Monster(level=12))
+    print(Monster(name="Joe the Monster", level=12))
