@@ -15,3 +15,7 @@
 
 att roll see if you hit
 damage to determine damage
+
+
+## Dungeon(level)
+We need 12 __unique__ monsters per dungeon and we want to pass in the level of the monsters.
